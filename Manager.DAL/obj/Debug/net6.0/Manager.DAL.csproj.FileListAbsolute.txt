@@ -1,0 +1,15 @@
+D:\Aprendizaje autodidacta\proyectos\C#\SSASA\Manager.DAL\obj\Debug\net6.0\Manager.DAL.csproj.AssemblyReference.cache
+D:\Aprendizaje autodidacta\proyectos\C#\SSASA\Manager.DAL\obj\Debug\net6.0\Manager.DAL.GeneratedMSBuildEditorConfig.editorconfig
+D:\Aprendizaje autodidacta\proyectos\C#\SSASA\Manager.DAL\obj\Debug\net6.0\Manager.DAL.AssemblyInfoInputs.cache
+D:\Aprendizaje autodidacta\proyectos\C#\SSASA\Manager.DAL\obj\Debug\net6.0\Manager.DAL.AssemblyInfo.cs
+D:\Aprendizaje autodidacta\proyectos\C#\SSASA\Manager.DAL\obj\Debug\net6.0\Manager.DAL.csproj.CoreCompileInputs.cache
+D:\Aprendizaje autodidacta\proyectos\C#\SSASA\Manager.DAL\bin\Debug\net6.0\Manager.DAL.deps.json
+D:\Aprendizaje autodidacta\proyectos\C#\SSASA\Manager.DAL\bin\Debug\net6.0\Manager.DAL.dll
+D:\Aprendizaje autodidacta\proyectos\C#\SSASA\Manager.DAL\bin\Debug\net6.0\Manager.DAL.pdb
+D:\Aprendizaje autodidacta\proyectos\C#\SSASA\Manager.DAL\bin\Debug\net6.0\Manager.Domain.dll
+D:\Aprendizaje autodidacta\proyectos\C#\SSASA\Manager.DAL\bin\Debug\net6.0\Manager.Domain.pdb
+D:\Aprendizaje autodidacta\proyectos\C#\SSASA\Manager.DAL\obj\Debug\net6.0\Manager.DAL.csproj.CopyComplete
+D:\Aprendizaje autodidacta\proyectos\C#\SSASA\Manager.DAL\obj\Debug\net6.0\Manager.DAL.dll
+D:\Aprendizaje autodidacta\proyectos\C#\SSASA\Manager.DAL\obj\Debug\net6.0\refint\Manager.DAL.dll
+D:\Aprendizaje autodidacta\proyectos\C#\SSASA\Manager.DAL\obj\Debug\net6.0\Manager.DAL.pdb
+D:\Aprendizaje autodidacta\proyectos\C#\SSASA\Manager.DAL\obj\Debug\net6.0\ref\Manager.DAL.dll

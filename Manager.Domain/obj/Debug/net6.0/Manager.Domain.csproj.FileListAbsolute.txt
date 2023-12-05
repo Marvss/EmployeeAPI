@@ -1,0 +1,11 @@
+D:\Aprendizaje autodidacta\proyectos\C#\SSASA\Manager.Domain\bin\Debug\net6.0\Manager.Domain.deps.json
+D:\Aprendizaje autodidacta\proyectos\C#\SSASA\Manager.Domain\bin\Debug\net6.0\Manager.Domain.dll
+D:\Aprendizaje autodidacta\proyectos\C#\SSASA\Manager.Domain\bin\Debug\net6.0\Manager.Domain.pdb
+D:\Aprendizaje autodidacta\proyectos\C#\SSASA\Manager.Domain\obj\Debug\net6.0\Manager.Domain.GeneratedMSBuildEditorConfig.editorconfig
+D:\Aprendizaje autodidacta\proyectos\C#\SSASA\Manager.Domain\obj\Debug\net6.0\Manager.Domain.AssemblyInfoInputs.cache
+D:\Aprendizaje autodidacta\proyectos\C#\SSASA\Manager.Domain\obj\Debug\net6.0\Manager.Domain.AssemblyInfo.cs
+D:\Aprendizaje autodidacta\proyectos\C#\SSASA\Manager.Domain\obj\Debug\net6.0\Manager.Domain.csproj.CoreCompileInputs.cache
+D:\Aprendizaje autodidacta\proyectos\C#\SSASA\Manager.Domain\obj\Debug\net6.0\Manager.Domain.dll
+D:\Aprendizaje autodidacta\proyectos\C#\SSASA\Manager.Domain\obj\Debug\net6.0\refint\Manager.Domain.dll
+D:\Aprendizaje autodidacta\proyectos\C#\SSASA\Manager.Domain\obj\Debug\net6.0\Manager.Domain.pdb
+D:\Aprendizaje autodidacta\proyectos\C#\SSASA\Manager.Domain\obj\Debug\net6.0\ref\Manager.Domain.dll

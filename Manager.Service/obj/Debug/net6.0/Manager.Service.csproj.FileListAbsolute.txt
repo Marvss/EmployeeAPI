@@ -1,0 +1,17 @@
+D:\Aprendizaje autodidacta\proyectos\C#\SSASA\Manager.Service\obj\Debug\net6.0\Manager.Service.csproj.AssemblyReference.cache
+D:\Aprendizaje autodidacta\proyectos\C#\SSASA\Manager.Service\obj\Debug\net6.0\Manager.Service.GeneratedMSBuildEditorConfig.editorconfig
+D:\Aprendizaje autodidacta\proyectos\C#\SSASA\Manager.Service\obj\Debug\net6.0\Manager.Service.AssemblyInfoInputs.cache
+D:\Aprendizaje autodidacta\proyectos\C#\SSASA\Manager.Service\obj\Debug\net6.0\Manager.Service.AssemblyInfo.cs
+D:\Aprendizaje autodidacta\proyectos\C#\SSASA\Manager.Service\obj\Debug\net6.0\Manager.Service.csproj.CoreCompileInputs.cache
+D:\Aprendizaje autodidacta\proyectos\C#\SSASA\Manager.Service\bin\Debug\net6.0\Manager.Service.deps.json
+D:\Aprendizaje autodidacta\proyectos\C#\SSASA\Manager.Service\bin\Debug\net6.0\Manager.Service.dll
+D:\Aprendizaje autodidacta\proyectos\C#\SSASA\Manager.Service\bin\Debug\net6.0\Manager.Service.pdb
+D:\Aprendizaje autodidacta\proyectos\C#\SSASA\Manager.Service\bin\Debug\net6.0\Manager.DAL.dll
+D:\Aprendizaje autodidacta\proyectos\C#\SSASA\Manager.Service\bin\Debug\net6.0\Manager.Domain.dll
+D:\Aprendizaje autodidacta\proyectos\C#\SSASA\Manager.Service\bin\Debug\net6.0\Manager.DAL.pdb
+D:\Aprendizaje autodidacta\proyectos\C#\SSASA\Manager.Service\bin\Debug\net6.0\Manager.Domain.pdb
+D:\Aprendizaje autodidacta\proyectos\C#\SSASA\Manager.Service\obj\Debug\net6.0\Manager.Service.csproj.CopyComplete
+D:\Aprendizaje autodidacta\proyectos\C#\SSASA\Manager.Service\obj\Debug\net6.0\Manager.Service.dll
+D:\Aprendizaje autodidacta\proyectos\C#\SSASA\Manager.Service\obj\Debug\net6.0\refint\Manager.Service.dll
+D:\Aprendizaje autodidacta\proyectos\C#\SSASA\Manager.Service\obj\Debug\net6.0\Manager.Service.pdb
+D:\Aprendizaje autodidacta\proyectos\C#\SSASA\Manager.Service\obj\Debug\net6.0\ref\Manager.Service.dll
