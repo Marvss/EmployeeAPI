@@ -27,9 +27,9 @@ namespace Manager.Service
             return employeeRepository.GetAllEmployeesWithDepartments();
         }
 
-        public void AddEmployee(Employee employee)
+        public void InsertEmployee(Employee employee)
         {
-            ValidateEmployeeData(employeePostModel);
+            ValidateEmployeeData(employee);
             employeeRepository.InsertEmployee(employee);
         }
 
@@ -51,7 +51,7 @@ namespace Manager.Service
             employeeRepository.DeleteEmployee(employeeId);
         }
 
-        public void ValidateEmployeeData(EmployeePostModel employee)
+        public void ValidateEmployeeData(Employee employee)
         {
             if (string.IsNullOrWhiteSpace(employee.Name))
             {

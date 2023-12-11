@@ -127,10 +127,7 @@ namespace Manager.DAL
                 Address = (string)reader["direccion"],
                 NIT = (string)reader["NIT"],
                 DepartmentCode = (int)reader["codigoDepartamento"],
-                DepartmentDescription = reader.IsDBNull(reader.GetOrdinal("descripcionDepartamento"))
-                ? string.Empty // or null, depending on your preference
-    :           (string)reader["descripcionDepartamento"]
-        };
+            };
         }
 
         private void SetEmployeeParameters(SqlCommand command, Employee employee)

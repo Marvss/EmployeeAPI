@@ -34,82 +34,15 @@ namespace Manager.API.Controllers
         }
 
         [HttpPost]
-        public IActionResult CreateEmployee([FromBody] EmployeePostModel employeePostModel)
+        public IActionResult InsertEmployee(CreateEmployee employee)
         {
-            try
-            {
-                // Validar el modelo antes de crear el empleado
-               employeeService.ValidateEmployeeData(employeePostModel);
-
-                // Mapea los datos al modelo interno
-                var employee = new Employee
-                {
-                    Name = employeePostModel.Name,
-                    DPI = employeePostModel.DPI,
-                    DateOfBirth = employeePostModel.DateOfBirth,
-                    Gender = employeePostModel.Gender,
-                    HireDate = employeePostModel.HireDate,
-                    Age = employeePostModel.Age,
-                    Address = employeePostModel.Address,
-                    NIT = employeePostModel.NIT,
-                    DepartmentCode = employeePostModel.DepartmentCode,
-                    // EmployeeId no se especifica aquí, ya que es asignado por la base de datos
-                    // DepartmentDescription se asignará en la lógica de servicio o repositorio
-                };
-
-                // Lógica para guardar el nuevo empleado en la base de datos
-                employeeService.AddEmployee(employee);
-
-                // Devuelve una respuesta exitosa
-                return Ok(employee);
-            }
-            catch (ArgumentException ex)
-            {
-                // Captura las excepciones de validación y devuelve una respuesta 400 Bad Request con el mensaje de error
-                return BadRequest(new { error = ex.Message });
-            }
+            throw new NotImplementedException();
         }
 
         [HttpPut("{id}")]
-        public IActionResult UpdateEmployee(int id, [FromBody] EmployeePostModel employeePostModel)
+        public IActionResult UpdateEmployee(CreateEmployee employee)
         {
-            var existingEmployee = employeeService.GetEmployeeById(id);
-            if (existingEmployee == null)
-            {
-                return NotFound();
-            }
-            try
-            {
-                // Validar el modelo antes de crear el empleado
-                employeeService.ValidateEmployeeData(employeePostModel);
-
-                // Mapea los datos al modelo interno
-                var employee = new Employee
-                {
-                    Name = employeePostModel.Name,
-                    DPI = employeePostModel.DPI,
-                    DateOfBirth = employeePostModel.DateOfBirth,
-                    Gender = employeePostModel.Gender,
-                    HireDate = employeePostModel.HireDate,
-                    Age = employeePostModel.Age,
-                    Address = employeePostModel.Address,
-                    NIT = employeePostModel.NIT,
-                    DepartmentCode = employeePostModel.DepartmentCode,
-                    // EmployeeId no se especifica aquí, ya que es asignado por la base de datos
-                    // DepartmentDescription se asignará en la lógica de servicio o repositorio
-                };
-
-                // Lógica para guardar el nuevo empleado en la base de datos
-                employeeService.AddEmployee(employee);
-
-                // Devuelve una respuesta exitosa
-                return Ok(employee);
-            }
-            catch (ArgumentException ex)
-            {
-                // Captura las excepciones de validación y devuelve una respuesta 400 Bad Request con el mensaje de error
-                return BadRequest(new { error = ex.Message });
-            }
+            throw new NotImplementedException();
         }
 
         [HttpDelete("{id}")]

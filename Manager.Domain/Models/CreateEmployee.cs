@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace Manager.Domain.Models
 {
-    public class EmployeePostModel
+    public class CreateEmployee
     {
         public string Name { get; set; }
         public string DPI { get; set; }

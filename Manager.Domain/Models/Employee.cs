@@ -18,6 +18,5 @@ namespace Manager.Domain.Models
         public string Address { get; set; }
         public string NIT { get; set; }
         public int DepartmentCode { get; set; }
-        public string? DepartmentDescription { get; set; }
     }
 }
