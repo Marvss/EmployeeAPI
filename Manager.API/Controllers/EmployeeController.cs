@@ -34,15 +34,75 @@ namespace Manager.API.Controllers
         }
 
         [HttpPost]
-        public IActionResult InsertEmployee(CreateEmployee employee)
+        public IActionResult InsertEmployee([FromBody]CreateEmployee createemployee)
         {
-            throw new NotImplementedException();
+            try
+            {
+                // Mapea los datos al modelo interno
+                var employee = new Employee
+                {
+                    Name = createemployee.Name,
+                    DPI = createemployee.DPI,
+                    DateOfBirth = createemployee.DateOfBirth,
+                    Gender = createemployee.Gender,
+                    HireDate = createemployee.HireDate,
+                    Age = createemployee.Age,
+                    Address = createemployee.Address,
+                    NIT = createemployee.NIT,
+                    DepartmentCode = createemployee.DepartmentCode,
+                    // EmployeeId no se especifica aquí, ya que es asignado por la base de datos
+                    // DepartmentDescription se asignará en la lógica de servicio o repositorio
+                };
+
+                // Lógica para crear el empleado a través del servicio
+                employeeService.InsertEmployee(employee);
+
+                // Devuelve una respuesta exitosa
+                return Ok(employee);
+            }
+            catch (ArgumentException ex)
+            {
+                // Captura las excepciones de validación y devuelve una respuesta 400 Bad Request con el mensaje de error
+                return BadRequest(new { error = ex.Message });
+            }
         }
 
-        [HttpPut("{id}")]
-        public IActionResult UpdateEmployee(CreateEmployee employee)
+        [HttpPut]
+        public IActionResult UpdateEmployee(int employeeId, [FromBody] CreateEmployee createemployee)
         {
-            throw new NotImplementedException();
+            try
+            {
+                // Verificar si el empleado con el ID proporcionado existe
+                var existingEmployee = employeeService.GetEmployeeById(employeeId);
+
+                if (existingEmployee == null)
+                {
+                    // Si el empleado no existe, devolver un error 404 Not Found
+                    return NotFound($"No se encontró un empleado con ID {employeeId}");
+                }
+
+                // Mapear los datos actualizados al modelo existente
+                existingEmployee.Name = createemployee.Name;
+                existingEmployee.DPI = createemployee.DPI;
+                existingEmployee.DateOfBirth = createemployee.DateOfBirth;
+                existingEmployee.Gender = createemployee.Gender;
+                existingEmployee.HireDate = createemployee.HireDate;
+                existingEmployee.Age = createemployee.Age;
+                existingEmployee.Address = createemployee.Address;
+                existingEmployee.NIT = createemployee.NIT;
+                existingEmployee.DepartmentCode = createemployee.DepartmentCode;
+
+                // Lógica para actualizar el empleado a través del servicio
+                employeeService.UpdateEmployee(existingEmployee);
+
+                // Devuelve una respuesta exitosa
+                return Ok(existingEmployee);
+            }
+            catch (ArgumentException ex)
+            {
+                // Captura las excepciones de validación y devuelve una respuesta 400 Bad Request con el mensaje de error
+                return BadRequest(new { error = ex.Message });
+            }
         }
 
         [HttpDelete("{id}")]
